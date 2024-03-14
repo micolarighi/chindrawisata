@@ -20,23 +20,26 @@
 					/></svg
 				>
 			</div>
-			<ul
-				tabindex="0"
-				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-			>
-				<li><a>Item 1</a></li>
-				<li><a>Item 3</a></li>
+			<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+				<li><a href="">Home</a></li>
+				<li><a href="">Produk</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
 			</ul>
 		</div>
 		<a href="/"><img width="200" src={logo} alt="Logo Chindrawisata" /></a>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1 text-lg">
-			<li><a>Item 1</a></li>
-			<li><a>Item 3</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="/product">Produk</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Contact</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn">Button</a>
+		<a class="btn bg-lime-400">PESAN SEKARANG</a>
 	</div>
 </div>

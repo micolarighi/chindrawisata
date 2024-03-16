@@ -15,7 +15,7 @@
 						<p class="max-w-3xl mx-auto mb-10 text-xl md:text-3xl text-gray-300">
 							Creating Affordable Travel Experiences
 						</p>
-						<a class="btn bg-lime-400" href="#">Selengkapnya</a>
+						<a class="btn bg-lime-400" href="#">Lihat Paket</a>
 					</div>
 				</div>
 			</div>

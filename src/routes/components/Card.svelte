@@ -5,7 +5,7 @@
 	export let alt;
 </script>
 
-<div class="card w-96 bg-base-100 shadow-xl">
+<div class="card md:w-96 bg-base-100 shadow-xl mt-12">
 	<figure>
 		<img src={img} {alt} />
 	</figure>

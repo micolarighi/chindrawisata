@@ -5,11 +5,12 @@
 </script>
 
 <main>
+	<h1 class="text-center text-4xl font-bold mt-12">Pilihan Paket Perjalanan</h1>
 	<div class="grid grid-cols-1 md:grid-cols-3 px-8 md:px-24">
 		<Card
 			img={'/src/lib/assets/product/umrah-desember.jpeg'}
 			title={'Umrah Akhir Tahun'}
-			desc={'Umrah Akhir Tahun Desember 2022'}
+			desc={'Umrah Akhir Tahun Desember 2024'}
 			link={'/product/paket_1'}
 		/>
 	</div>

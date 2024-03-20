@@ -1,4 +1,4 @@
-<header class="my-24">
+<header class="my-16">
 	<div
 		class="w-full md:bg-center bg-cover"
 		style="background-image: url(/src/lib/assets/bg-billboard.jpg);"

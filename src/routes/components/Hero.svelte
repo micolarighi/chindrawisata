@@ -1,10 +1,10 @@
 <header class="my-8 px-8 md:px-24">
 	<div
 		class="w-full bg-center bg-cover rounded-3xl"
-		style="background-image: url(/src/lib/assets/bg-hero.png);"
+		style="background-image: url(/src/lib/assets/bg-hero.webp);"
 	>
 		<div
-			class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-36 rounded-3xl"
+			class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 md:py-40 py-24 rounded-3xl"
 		>
 			<div class="text-center">
 				<div class="container px-4 mx-auto">
@@ -15,7 +15,7 @@
 						<p class="max-w-3xl mx-auto mb-10 text-xl md:text-3xl text-gray-300">
 							Creating Affordable Travel Experiences
 						</p>
-						<a class="btn bg-lime-400" href="#">Lihat Paket</a>
+						<a class="btn bg-lime-400" href="/product">Lihat Paket</a>
 					</div>
 				</div>
 			</div>

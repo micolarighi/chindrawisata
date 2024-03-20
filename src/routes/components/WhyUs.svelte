@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<div class="text-center mb-8 mt-16 bg-zinc-100 px-8 md:px-24 py-12">
+<div class="text-center my-16 bg-zinc-100 px-8 md:px-24 py-12">
 	<h1 class="md:text-4xl text-2xl font-bold">Kenapa Memilih Kami?</h1>
 	<p class="text-gray-400 mb-8 mt-2 leading-none">
 		Jalankan Tour yang Aman, Terpercaya & Menyenangkan bersama Chindra Wisata

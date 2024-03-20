@@ -135,6 +135,7 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
+		overflow-y: hidden;
 	}
 
 	button {

@@ -5,7 +5,7 @@
 	$: routeId = $page.route.id;
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 px-8 md:px-24">
 	<div class="navbar-center">
 		<a href="/"><img width="200" src={logo} alt="Logo Chindrawisata" /></a>
 		<div class="dropdown">

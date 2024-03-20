@@ -1,9 +1,7 @@
 <script>
-	import Navbar from './components/Navbar.svelte';
 	import Hero from './components/Hero.svelte';
 	import BookSection from './components/BookSection.svelte';
 	import Contact from './components/Contact.svelte';
-	import Footer from './components/Footer.svelte';
 	import Carousel from './components/Carousel.svelte';
 	import Gallery from './components/Gallery.svelte';
 	import WhyUs from './components/WhyUs.svelte';
@@ -11,10 +9,7 @@
 </script>
 
 <main>
-	<div class="px-8 md:px-24">
-		<Navbar />
-		<Hero />
-	</div>
+	<Hero />
 	<WhyUs />
 	<Gallery>
 		<Carousel autoplay="2000">
@@ -23,10 +18,10 @@
 			<img class="rounded-lg px-1" src="/src/lib/assets/gallery/3.JPG" alt="" />
 			<img class="rounded-lg px-1" src="/src/lib/assets/gallery/4.JPG" alt="" />
 			<img class="rounded-lg px-1" src="/src/lib/assets/gallery/5.JPG" alt="" />
-			<span class="text-3xl text-white outline" slot="left-control"
+			<span class="text-3xl text-white" slot="left-control"
 				><Icon icon="icon-park-solid:left-c" /></span
 			>
-			<span class="text-3xl text-white outline" slot="right-control"
+			<span class="text-3xl text-white" slot="right-control"
 				><Icon icon="icon-park-solid:right-c" /></span
 			>
 		</Carousel>
@@ -34,6 +29,3 @@
 
 	<Contact />
 </main>
-<footer>
-	<Footer />
-</footer>

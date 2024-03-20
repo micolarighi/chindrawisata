@@ -1,4 +1,4 @@
-<header class="my-8">
+<header class="my-8 px-8 md:px-24">
 	<div
 		class="w-full bg-center bg-cover rounded-3xl"
 		style="background-image: url(/src/lib/assets/bg-hero.png);"

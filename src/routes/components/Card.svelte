@@ -4,6 +4,7 @@
 	export let img;
 	export let alt;
 	export let link;
+	import BookBtn from './BookBtn.svelte';
 </script>
 
 <div class="card bg-base-100 shadow-xl mt-12">
@@ -13,9 +14,9 @@
 	<div class="card-body">
 		<h2 class="card-title">{title}</h2>
 		<p>{desc}</p>
-		<div class="card-actions justify-start">
-			<a href={link} class="btn">Selengkapnya</a>
-			<button class="btn bg-lime-400">Pesan Sekarang</button>
+		<div class="card-actions justify-center">
+			<a href={link} class="btn w-full text-xs md:text-md">Selengkapnya</a>
+			<BookBtn width={'full'} />
 		</div>
 	</div>
 </div>

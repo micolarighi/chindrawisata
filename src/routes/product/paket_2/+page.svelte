@@ -4,16 +4,16 @@
 <main>
 	<div class="mt-12 px-8 md:px-24">
 		<div class="grid md:grid-cols-2 gap-5 justify-around">
-			<img src="/src/lib/assets/product/umrah.webp" class="rounded-xl" alt="" />
+			<img src="/src/lib/assets/product/turkey.webp" class="rounded-xl" alt="" />
 			<div>
-				<h1 class="leading-tight text-4xl font-bold">Umrah</h1>
+				<h1 class="leading-tight text-4xl font-bold">Turkey</h1>
 				<h5 class="leading-tight text-2xl mb-5">Detail Paket</h5>
 				<div class="border-b"></div>
 				<div class="collapse collapse-arrow bg-base-200 my-5">
 					<input type="radio" name="my-accordion-2" checked="checked" />
 					<div class="collapse-title text-lg font-bold">Deskripsi</div>
 					<div class="collapse-content">
-						<p>Umrah Akhir Tahun 24 Desember 2024 dengan Harga Terjangkau</p>
+						<p>Deskripsi disini</p>
 					</div>
 				</div>
 				<div class="collapse collapse-arrow bg-base-200 my-5">

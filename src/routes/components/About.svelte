@@ -1,8 +1,8 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-8 md:px-24 my-16">
-	<div class="md:p-16 px-4 py-2">
+	<div class="md:p-16 px-4 hidden md:block">
 		<img
 			src="/src/lib/assets/logo.png"
-			class="rounded-xl shadow-inner p-12"
+			class="rounded-xl shadow-md p-12"
 			alt="Logo Chindra Wisata"
 		/>
 	</div>

@@ -1,6 +1,7 @@
 <script>
 	import logo from '$lib/assets/logo.png';
 	import { page } from '$app/stores';
+	import BookBtn from '../components/BookBtn.svelte';
 
 	$: routeId = $page.route.id;
 </script>
@@ -15,9 +16,9 @@
 			<ul class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
 				<li class:active={routeId == '/'} id="home"><a href="/">Home</a></li>
 				<li class:active={routeId == '/product'} id="about"><a href="/product">Paket</a></li>
-				<li class:active={routeId == 'gallery'} id="gallery"><a href="/gallery">Gallery</a></li>
-				<li class:active={routeId == 'about'} id="about"><a href="/about">About</a></li>
-				<li class:active={routeId == 'contact'} id="contact"><a href="/contact">Contact</a></li>
+				<li class:active={routeId == '/gallery'} id="gallery"><a href="/gallery">Gallery</a></li>
+				<li class:active={routeId == '/about'} id="about"><a href="/about">About</a></li>
+				<li class:active={routeId == '/contact'} id="contact"><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -25,13 +26,13 @@
 		<ul class="menu menu-horizontal px-1 text-lg">
 			<li class:active={routeId == '/'} id="home"><a href="/">Home</a></li>
 			<li class:active={routeId == '/product'} id="product"><a href="/product">Paket</a></li>
-			<li class:active={routeId == 'gallery'} id="gallery"><a href="/gallery">Gallery</a></li>
-			<li class:active={routeId == 'about'} id="about"><a href="/about">About</a></li>
-			<li class:active={routeId == 'contact'} id="contact"><a href="/contact">Contact</a></li>
+			<li class:active={routeId == '/gallery'} id="gallery"><a href="/gallery">Gallery</a></li>
+			<li class:active={routeId == '/about'} id="about"><a href="/about">About</a></li>
+			<li class:active={routeId == '/contact'} id="contact"><a href="/contact">Contact</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end hidden md:flex">
-		<a class="btn bg-lime-400 text-xs md:text-md">Pesan Sekarang</a>
+		<BookBtn />
 	</div>
 </div>
 

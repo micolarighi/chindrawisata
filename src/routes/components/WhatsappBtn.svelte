@@ -1,4 +1,4 @@
-<div class="toast toast-end mb-12 z-50">
+<div class="toast toast-end md:mb-12 mb-4 z-50">
 	<div class="alert alert-info bg-lime-400 shadow-xl">
 		<!-- 
 		> -->

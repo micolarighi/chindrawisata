@@ -5,7 +5,7 @@
 	import WhatsappBtn from './components/WhatsappBtn.svelte';
 </script>
 
-<nav>
+<nav class="mb-32">
 	<Navbar />
 </nav>
 <WhatsappBtn />

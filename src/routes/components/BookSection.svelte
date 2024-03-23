@@ -1,7 +1,11 @@
+<script>
+	import BookImg from '$lib/assets/bg-billboard.png';
+</script>
+
 <header class="mt-16 px-8 md:px-32">
 	<div
 		class="w-full md:h-full h-24 md:bg-center bg-cover rounded-lg"
-		style="background-image: url(/src/lib/assets/bg-billboard.png);"
+		style="background-image: url({BookImg});"
 	>
 		<div class="flex items-center justify-center w-full h-full py-12">
 			<div class="text-center">

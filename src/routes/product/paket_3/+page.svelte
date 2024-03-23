@@ -1,10 +1,11 @@
 <script>
+	import Image from '$lib/assets/product/aqsa.webp';
 </script>
 
 <main>
 	<div class="mt-12 px-8 md:px-24">
 		<div class="grid md:grid-cols-2 gap-5 justify-around">
-			<img src="/src/lib/assets/product/aqsa.webp" class="rounded-xl" alt="" />
+			<img src={Image} class="rounded-xl" alt="" />
 			<div>
 				<h1 class="leading-tight text-4xl font-bold">Tour Aqsa</h1>
 				<h5 class="leading-tight text-2xl mb-5">Detail Paket</h5>
